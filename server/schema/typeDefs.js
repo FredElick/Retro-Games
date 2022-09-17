@@ -33,7 +33,7 @@ type Auth {
     user(username: String!): User
     games(username: String): [Game]
     game(_id: ID!): Game
-    console(_id: ID!): console
+    console(_id: ID!): Console
   }
 
   type Mutation{

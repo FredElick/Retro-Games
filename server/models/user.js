@@ -23,13 +23,13 @@ const userSchema = new Schema(
     consoles: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'console'
+        ref: 'Console'
       }
     ],
     games: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'games'
+        ref: 'Game'
       }
     ]
   },

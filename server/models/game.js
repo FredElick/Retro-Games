@@ -11,7 +11,11 @@ const gameSchema = new Schema(
     releaseYear: {
       type: String,
     },
-    console: [consoleSchema]
+    console:{
+      type: Schema.Types.ObjectId,
+      ref: 'Console',
+      required: true
+    } 
   },
   {
     toJSON: {

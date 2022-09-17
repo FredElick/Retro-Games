@@ -17,6 +17,9 @@ const consoleSchema = new Schema(
             type: String,
             minlength: 1,
             maxlength: 100,
+        },
+        link: {
+            type: String
         }
     },
     {

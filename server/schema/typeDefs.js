@@ -13,13 +13,16 @@ type Game {
     _id: ID
     title: String
     releaseYear: String
+    link: String
     console: Console
+    description: String
 }
 
 type Console {
     name: String
     releaseDate: String
     developer: String
+    link: String
 }
 
 type Auth {

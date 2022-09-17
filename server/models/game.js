@@ -15,7 +15,13 @@ const gameSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: 'Console',
       required: true
-    } 
+    },
+    link: {
+      type: String
+    },
+    description: {
+      type: String
+    }
   },
   {
     toJSON: {

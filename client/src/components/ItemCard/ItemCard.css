@@ -1,0 +1,24 @@
+.cards-row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    
+    .item-card {
+    width: 300px;
+    height: auto;
+    border: solid 1px #333;
+    }
+    
+    .item-img-div {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    }
+    
+    .item-card-content {
+    
+    }

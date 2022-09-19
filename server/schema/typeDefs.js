@@ -14,7 +14,7 @@ type Game {
     title: String
     releaseYear: String
     link: String
-    console: Console
+    console: String
     description: String
     rating: String
     coverImg: String

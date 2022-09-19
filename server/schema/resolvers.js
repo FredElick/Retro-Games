@@ -5,11 +5,13 @@ const { signToken } = require('../utils/auth');
 const resolvers = {
     Query: {
         me: async (parent, args, context) => {
+          console.log(context.User);
             if (context.user) {
               const userData = await User.findOne({ _id: context.user._id })
                 .select('-__v -password')
                 .populate('games');
-      
+              console.log('here');
+              console.log(userData);
               return userData;
             }
       
@@ -31,7 +33,10 @@ const resolvers = {
         game: async (parent, { _id }) => {
             return Game.findOne({_id});
         },
-        console: async () => {
+        games: async () => {
+          return Game.find();
+        },
+        consoles: async () => {
             return Console.find()
         },
         console: async ({ _id }) => {
@@ -93,3 +98,5 @@ const resolvers = {
 
     }
 }
+
+module.exports= resolvers;

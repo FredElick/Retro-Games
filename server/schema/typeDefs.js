@@ -23,6 +23,7 @@ type Game {
 }
 
 type Console {
+  _id: ID
     name: String
     releaseDate: String
     developer: String
@@ -42,9 +43,10 @@ type Auth {
     me: User
     users: [User]
     user(username: String!): User
-    games(username: String): [Game]
-    game(_id: ID!): Game
+    games: [Game]
+    game(_id: ID): Game
     console(_id: ID!): Console
+    consoles: [Console]
   }
 
   type Mutation{

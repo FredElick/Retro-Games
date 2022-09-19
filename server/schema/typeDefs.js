@@ -16,12 +16,20 @@ type Game {
     link: String
     console: Console
     description: String
+    rating: String
+    coverImg: String
+    gameplayImg: String
+    gameplayVid: String
 }
 
 type Console {
     name: String
     releaseDate: String
     developer: String
+    description: String
+    consoleImg: String
+    consoleImg2: String
+    promo: String
     link: String
 }
 

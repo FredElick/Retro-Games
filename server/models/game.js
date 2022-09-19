@@ -12,9 +12,19 @@ const gameSchema = new Schema(
       type: String,
     },
     console:{
-      type: Schema.Types.ObjectId,
-      ref: 'Console',
-      required: true
+      type: String
+    },
+    rating:{
+      type: String
+    },
+    coverImg:{
+      type: String
+    },
+    gameplayImg:{
+      type: String
+    },
+    gameplayVid:{
+      type: String
     },
     link: {
       type: String

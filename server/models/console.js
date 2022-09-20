@@ -18,6 +18,18 @@ const consoleSchema = new Schema(
             minlength: 1,
             maxlength: 100,
         },
+        description:{
+            type: String
+          },
+          consoleImg:{
+            type: String
+          },
+          consoleImg2:{
+            type: String
+          },
+          promo:{
+            type: String
+          },
         link: {
             type: String
         }

@@ -9,5 +9,10 @@
     "seed": "node seeders/seeds.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.10.2",
+    "graphql": "^16.6.0",
+    "jwt-decode": "^3.1.2"
+  }
 }

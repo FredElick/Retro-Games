@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import './drag'
-import Home from './components/Home/Home';
-import Nav from './components/Nav/Nav'
+import Home from './pages/Home';
+import Nav from './components/Nav'
 
 function App() {
   return (

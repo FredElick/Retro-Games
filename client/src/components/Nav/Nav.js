@@ -1,20 +1,26 @@
 import React from "react";
-import './Nav.css';
+import '/client/src/index.css';
 
 const Nav = () => {
 
     return (
-        <div className="nav-links-bar">
+        <section class="header-sec">
 
-        <div className="nav">
-            <a href="/">home link</a>
-            <a href="/Dashboard">dashboard link</a>
-            <a href="/Console">consoles link</a>
-            <a href="/Games">games link</a>
-            <a href="/Login">login link</a>
-            <a href="">logout link</a>
+        <div class="nav-links-bar">
+
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="consoles.html">Consoles</a>
+                <a href="games.html">Games</a>
+            </div>
+            <div class="nav alt-nav">
+                <a href="login.html">Login</a>
+                <a href="">Logout</a>
+            </div>
         </div>
-    </div>
+
+    </section>
     );
 };
 

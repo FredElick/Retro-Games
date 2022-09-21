@@ -1,5 +1,5 @@
 import React from "react";
-import '/client/src/index.css';
+
 
 const Nav = () => {
 

@@ -1,9 +1,10 @@
 import React from 'react';
-
-const Hero = () => {
+const Home = () => {
 
     return (
+        
     <section className="hero-sec">
+        <script src=''></script>
         <div className="selections-container">
 
                     <div id="logo" className="selection-div logo-selec">
@@ -83,4 +84,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Home;

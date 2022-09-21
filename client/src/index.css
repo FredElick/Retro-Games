@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #5E7EB5;
-  background-image: url(../images/water-bg.jpg);
+  /* background-image: url(../images/water-bg.jpg); */
   background-size: fill;
   font-family: 'Share Tech Mono', monospace;
   font-stretch: condensed;

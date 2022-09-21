@@ -71,9 +71,6 @@ var Home = React.createClass({
                 <div className="shadow" />
               </div>
             </div>
-            {/* Blockbuster ad */}
-            {/* <a href="https://blockbuster.com/" target="_blank" class="bb-add">
-          </a> */}
           </section>
         </div>
       );

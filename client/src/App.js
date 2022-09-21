@@ -10,7 +10,6 @@ function App() {
       <section>
         <Nav></Nav>
       </section>
-      
       <Home></Home>
 
     </div>

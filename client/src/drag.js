@@ -13,7 +13,6 @@ document.addEventListener('mouseup', function() {
 }, true);
 
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown) {
         divOverlay.style.left = (e.clientX + offset[0]) + 'px';
         divOverlay.style.top  = (e.clientY + offset[1]) + 'px';
@@ -37,7 +36,6 @@ document.addEventListener('mouseup', function() {
 }, true);
 
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown1) {
         divOverlay1.style.left = (e.clientX + offset1[0]) + 'px';
         divOverlay1.style.top  = (e.clientY + offset1[1]) + 'px';
@@ -61,7 +59,6 @@ document.addEventListener('mouseup', function() {
 }, true);
 
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown2) {
         divOverlay2.style.left = (e.clientX + offset2[0]) + 'px';
         divOverlay2.style.top  = (e.clientY + offset2[1]) + 'px';
@@ -85,7 +82,6 @@ document.addEventListener('mouseup', function() {
 }, true);
 
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown3) {
         divOverlay3.style.left = (e.clientX + offset3[0]) + 'px';
         divOverlay3.style.top  = (e.clientY + offset3[1]) + 'px';

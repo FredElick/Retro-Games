@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="blk-bar" />
                 <div className="blk-bar" />
               </div>
-              <a href="index.html">Group Five</a>
+              <a href="">Group Five</a>
             </div>
             <div className="header-logo">
               <pre>{"    "}.oooooo.{"                          "}.{"             "}o8o{"        "}.o8{"                        "}.oooooo..o{"     "}.{"                       "}{"\n"}{"    "}d8P'{"  "}`Y8b{"                       "}.o8{"             "}`"'{"       "}"888{"                       "}d8P'{"    "}`Y8{"   "}.o8{"                       "}{"\n"}{"    "}888{"           "}.oooo.{"   "}oooo d8b .o888oo oooo d8b oooo{"   "}.oooo888{"   "}.oooooooo{"  "}.ooooo.{"  "}Y88bo.{"      "}.o888oo{"  "}.ooooo.{"  "}oo.ooooo. {"\n"}{"    "}888{"          "}`P{"  "})88b{"  "}`888""8P{"   "}888{"   "}`888""8P `888{"  "}d88' `888{"  "}888' `88b{"  "}d88' `88b{"  "}`"Y8888o.{"    "}888{"   "}d88' `88b{"  "}888' `88b{"\n"}{"    "}888{"           "}.oP"888{"   "}888{"       "}888{"    "}888{"      "}888{"  "}888{"   "}888{"  "}888{"   "}888{"  "}888ooo888{"      "}`"Y88b{"   "}888{"   "}888{"   "}888{"  "}888{"   "}888{"\n"}{"    "}`88b{"    "}ooo{"  "}d8({"  "}888{"   "}888{"       "}888 .{"  "}888{"      "}888{"  "}888{"   "}888{"  "}`88bod8P'{"  "}888{"    "}.o oo{"     "}.d8P{"   "}888 . 888{"   "}888{"  "}888{"   "}888{"\n"}{"    "}`Y8bood8P'{"  "}`Y888""8o d888b{"      "}"888" d888b{"    "}o888o `Y8bod88P" `8oooooo.{"  "}`Y8bod8P' 8""88888P'{"    "}"888" `Y8bod8P'{"  "}888bod8P'{"\n"}{"                                                                    "}d"{"     "}YD{"                                           "}888{"      "}{"\n"}{"                                                                    "}"Y88888P'{"                                          "}o888o{"     "}{"\n"}{"    "}</pre>
@@ -34,7 +34,7 @@ const Home = () => {
                     <div className="blk-bar" />
                     <div className="blk-bar" />
                   </div>
-                  <a href="index.html">Consoles</a>
+                  <a href="/Console">Consoles</a>
                 </div>
                 <div className="featured-img alt-feat-img">
                   <img src="https://preview.redd.it/s1hc4t5io3m81.jpg?auto=webp&s=694e6dc25104b10afa45cc47ed37758fa838dd51" alt="featured game" />
@@ -58,7 +58,7 @@ const Home = () => {
                     <div className="blk-bar" />
                     <div className="blk-bar" />
                   </div>
-                  <a href="index.html">Games</a>
+                  <a href="/Games">Games</a>
                 </div>
                 <div className="featured-img">
                   <img src="https://www.mobygames.com/images/covers/l/86029-crash-bandicoot-playstation-front-cover.jpg" alt="featured game" />

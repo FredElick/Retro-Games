@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 // import logo from './logo.svg';
-// import './drag'
+// import './drag.js'
 
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 // import ItemCard from './components/ItemCard';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -14,6 +14,7 @@ import Dashboard from './pages/Dashboard';
 import Console from './pages/Console';
 import Games from './pages/Games';
 import Login from './pages/Login';
+import ItemPage from './pages/ItemPage';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/Console' element={<Console/>} />
         <Route path='/Games' element={<Games/>} />
         <Route path='/Login' element={<Login/>} />
+        <Route path='/ItemPage' element={<ItemPage/>} />
     </Routes>
     {/* <Footer /> */}
     </Router>

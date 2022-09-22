@@ -14,17 +14,13 @@ divOverlay.addEventListener('mousedown', (e) => {
 document.addEventListener('mouseup', function() {
     isDown = false;
 }, true);
-
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown) {
         divOverlay.style.left = (e.clientX + offset[0]) + 'px';
         divOverlay.style.top  = (e.clientY + offset[1]) + 'px';
     }
 }, true);
-
 // ------------------------------------------------------------------------
-
 var offset1 = [20,0];
 var divOverlay1 = document.getElementById ("nice");
 var isDown1 = false;
@@ -38,17 +34,13 @@ divOverlay1.addEventListener('mousedown', function(e) {
 document.addEventListener('mouseup', function() {
     isDown1 = false;
 }, true);
-
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown1) {
         divOverlay1.style.left = (e.clientX + offset1[0]) + 'px';
         divOverlay1.style.top  = (e.clientY + offset1[1]) + 'px';
     }
 }, true);
-
 // ------------------------------------------------------------------------
-
 var offset2 = [20,0];
 var divOverlay2 = document.getElementById ("logo");
 var isDown2 = false;
@@ -62,17 +54,13 @@ divOverlay2.addEventListener('mousedown', function(e) {
 document.addEventListener('mouseup', function() {
     isDown2 = false;
 }, true);
-
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown2) {
         divOverlay2.style.left = (e.clientX + offset2[0]) + 'px';
         divOverlay2.style.top  = (e.clientY + offset2[1]) + 'px';
     }
 }, true);
-
 // ------------------------------------------------------------------------
-
 var offset3 = [20,0];
 var divOverlay3 = document.getElementById ("login");
 var isDown3 = false;
@@ -86,9 +74,7 @@ divOverlay3.addEventListener('mousedown', function(e) {
 document.addEventListener('mouseup', function() {
     isDown3 = false;
 }, true);
-
 document.addEventListener('mousemove', function(e) {
-    event.preventDefault();
     if (isDown3) {
         divOverlay3.style.left = (e.clientX + offset3[0]) + 'px';
         divOverlay3.style.top  = (e.clientY + offset3[1]) + 'px';

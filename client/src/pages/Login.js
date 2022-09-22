@@ -38,7 +38,7 @@ const Login = () => {
     });
   };
     return  (
-        <section className="login-sec">
+      <section className="login-sec">
         <div id className="selection-div login-window">
           <div className="title-bar">
             <div className="blk-bars-div">

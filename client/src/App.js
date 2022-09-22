@@ -1,19 +1,36 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-no-duplicate-props */
+// import logo from './logo.svg';
+// import './drag.js'
+
+import React from 'react';
 import './App.css';
-import './drag'
-import Home from './components/Home/Home';
-import Nav from './components/Nav/Nav'
+import Nav from './components/Nav';
+// import Footer from './components/Footer';
+// import ItemCard from './components/ItemCard';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
+import Console from './pages/Console';
+import Games from './pages/Games';
+import Login from './pages/Login';
+import ItemPage from './pages/ItemPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <section>
-        <Nav></Nav>
-      </section>
-      
-      <Home></Home>
-
-    </div>
+    <Router>
+    <Nav />
+    <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Dashboard' element={<Dashboard/>} />
+        <Route path='/Console' element={<Console/>} />
+        <Route path='/Games' element={<Games/>} />
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/ItemPage' element={<ItemPage/>} />
+    </Routes>
+    {/* <Footer /> */}
+    </Router>
   );
 }
 

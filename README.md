@@ -29,7 +29,6 @@ This application was developed for the older gamer in all of us. If buying and s
 ## Screenshots
 
 
-
 ## Links
 
 [GitHub](https://github.com/FredElick/Retro-Games)
@@ -59,5 +58,3 @@ This app was created using the folowing materials:
 
 
 ## License
-
-- https://opensource.org/licenses/MIT

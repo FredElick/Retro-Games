@@ -28,13 +28,6 @@ This application was developed for the older gamer in all of us. If buying and s
 
 ## Screenshots
 
-![cardShopLogin](https://user-images.githubusercontent.com/101908537/191871672-0a5ea757-9d61-44ed-ad00-6ea185bc16ed.png)
-
-![cardShopHome](https://user-images.githubusercontent.com/101908537/191871712-2cdf1379-f766-433f-8549-657879195d3b.png)
-
-![cardShopGames](https://user-images.githubusercontent.com/101908537/191871749-a531da01-cae7-4135-978d-7e2b4ef9749d.png)
-
-![cardShopConsoles](https://user-images.githubusercontent.com/101908537/191871772-15d83d0b-3877-4fea-b8f9-0489f53242f0.png)
 
 ## Links
 
@@ -65,5 +58,3 @@ This app was created using the folowing materials:
 
 
 ## License
-
-- https://opensource.org/licenses/MIT
